@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-main {
+  width: 600px;
+  height: 450px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.box-img {
+  width: 50%;
+  background-image: url('./images/image-product-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box-info {
+  width: 50%;
+  padding: 0 30px;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bx-pretitle {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: grey;
+}
+.bx-name {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 32px;
+}
+.bx-info {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: grey;
+}
+.bx-precio {
+  display: flex;
+}
+.oferta {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 32px;
+  color: rgb(57, 146, 112);
+}
+.precio {
+  line-height: 40px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: grey;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+.icon-cart {
+  line-height: 40px;
+  margin-right: 15px;
+}
+.bx-btn {
+  height: 40px;
+  border-style: none;
+  background-color: rgb(57, 146, 112);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  font-family: "Montserrat";
+}
